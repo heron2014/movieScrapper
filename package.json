@@ -1,0 +1,31 @@
+{
+  "name": "movieScrapper",
+  "version": "1.0.0",
+  "description": "Basic web scrapper that gets general movie information from IMDB",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heron2014/movieScrapper.git"
+  },
+  "keywords": [
+    "web-scrapper",
+    "movies",
+    "IMDB",
+    "crawler"
+  ],
+  "author": "heron2014",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/heron2014/movieScrapper/issues"
+  },
+  "dependencies": {
+    "hapi": "~10.0.0",
+    "hoek": "~2.16.2",
+    "handlebars": "~4.0.2",
+    "vision": "~3.0.0"
+  }
+}
